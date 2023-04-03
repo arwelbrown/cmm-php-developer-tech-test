@@ -1,0 +1,22 @@
+{
+    "name": "pete/cmm.test",
+    "description": "Compare My Move PHP Developer technical test.",
+    "require": {
+        "twig/twig": "^3.3",
+        "vlucas/phpdotenv": "^5.3",
+        "ext-pdo": "*",
+        "twbs/bootstrap": "^5.2",
+        "analog/analog": "^1.0"
+    },
+    "authors": [
+        {
+            "name": "Pete Waters",
+            "email": "pete@comparemymove.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    }
+}
